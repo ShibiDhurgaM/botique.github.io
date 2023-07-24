@@ -1,0 +1,124 @@
+:root
+{
+    --red:crimson;
+    --green: green;
+    --yellow:#ffc54d;
+    --white:whitesmoke;
+    --black:black;
+    --violet:purple;
+    --blue:blue;
+    --grey:grey;
+    --white1:antiquewhite;
+    --brown:brown;
+}
+
+body
+{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images1/my\ image.jpg');
+}
+.landing
+{
+    background-image: url('../image/magnificent-woman-long-bright-skirt-dancing-studio-carefree-inspired-female-model-posing-with-pleasure-yellow.jpg');
+    background-size: cover;
+    background-position: center ;
+    height:100vh;
+    color:var(--grey);
+}
+header a{
+    text-decoration: none;
+    color:var(--black);
+  
+    
+
+}
+header{
+    display:flex;
+    padding:1em;
+
+}
+#logo
+{
+    flex:3;
+    font: size 1.25em;;
+
+}
+nav{
+    flex:2;
+    display:flex;
+
+}
+nav a{
+    flex:1;
+
+}
+nav a:hover{
+    color:var(--grey);
+}
+.maintext{
+    display:flex;
+    flex-direction:column;
+    
+    justify-content:center;
+   
+
+}
+.tagline1{
+    font-size: 2.5em;
+    font-weight:bolder;
+    color:darkgrey;
+}
+.tagline2{
+    color:var(--grey);
+
+}
+.maintext div{
+    margin-top:.75em;
+}
+.tagline3
+{
+    font-size:medium;
+    font-weight: bold;
+    color:lightslategrey;
+}
+.tagline4
+{
+    font-size:large;
+    font-weight: bold;
+    color:lightslategrey;
+}
+.container
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:1rem;
+    background-color: grey;
+    gap:20px;
+    row-gap: 20p;
+}
+.regform
+{
+    width:500px;
+    margin:250px auto;
+    padding:10px 20px 30px;
+    background-color:rgba(0,0,0,.5);
+    color:aliceblue;
+    font-size: 30px;
+}
+.regform h3{
+    text-align: center;
+    color: burlywood;
+}
+.regform label{
+    display:block;
+}
+.input{
+    width:100%;
+    font-size:1.5em;
+    border:1px solid grey;
+    box-shadow:2px;
+    border-radius:8px;
+}
+
+
